@@ -4,6 +4,8 @@
         <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
         <link rel="stylesheet" href="index.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha256-3edrmyuQ0w65f8gfBsqowzjJe2iM6n0nKciPUp8y+7E=" crossorigin="anonymous"></script>
+        <script src="fun.js"></script>
     </head>
     <body>
         <div id='top-bar'>
@@ -25,8 +27,8 @@
                 <input id="search-input" type="text">
                 <img id="mic" src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"/>
             </div>
-            <button class="goog-button">Google Search</button>
-            <button class="goog-button">I'm Feeling Lucky</button>
+            <button id="search-button" class="goog-button" onclick="search()">Google Search</button>
+            <button id="lucky-button" class="goog-button">I'm Feeling Lucky</button>
         </div>
         <div id='bottom-bar'>
             <div class="left">

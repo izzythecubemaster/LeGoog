@@ -126,6 +126,10 @@ a:hover {
     cursor: pointer;
 }
 
+.hidden {
+    display: none;
+}
+
 .goog-button {
     height: 36px;
     line-height: 27px;
