@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <title>Google</title>
+        <link rel='shortcut icon' type='image/x-icon' href='favicon.ico' />
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div id='top-bar'>
+            <div class="left">
+                <a>About</a>
+                <a>Store</a>
+            </div>
+            <div class="right">
+                <a>Gmail</a>
+                <a>Images</a>
+                <div class="spacer"></div>
+                <i id="hamburg" class="material-icons">apps</i>
+                <button id="sign-in">Sign in</button>
+            </div>
+        </div>
+        <div id="mid-drift">
+            <img alt="Google" height="92" id="google-logo" src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" srcset="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png 1x, https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png 2x" style="padding-top:109px" width="272" data-atf="3">
+            <div id="search-box">
+                <input id="search-input" type="text">
+                <img id="mic" src="http://www.gstatic.com/images/branding/googlemic/2x/googlemic_color_24dp.png"/>
+            </div>
+            <button class="goog-button">Google Search</button>
+            <button class="goog-button">I'm Feeling Lucky</button>
+        </div>
+        <div id='bottom-bar'>
+            <div class="left">
+                <a>Advertising</a>
+                <a>Business</a>
+            </div>
+            <div class="right">
+                <a>Privacy</a>
+                <a>Terms</a>
+                <a>Settings</a>
+            </div>
+        </div>
+        <script>
+            var input = document.getElementById('search-input');
+            input.focus();
+            input.select();
+        </script>
+    </body>
+</html>
