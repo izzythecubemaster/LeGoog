@@ -188,3 +188,25 @@ a:hover {
     right: 24px;
     position: fixed;
 }
+
+.mutating-background {
+    background: linear-gradient(0deg, #fff, #fff, #C00 , #C00);
+    background-size: 600% 600%;
+
+    -webkit-animation: AnimationName 10s ease forwards;
+    -moz-animation: AnimationName 10s ease forwards;
+    animation: AnimationName 10s ease forwards;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position: 0% 100%}
+    100%{background-position:100% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:0% 100%}
+    100%{background-position:100% 0%}
+}
